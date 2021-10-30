@@ -1,0 +1,1 @@
+images/icon.ico: https://iconarchive.com/show/flatastic-2-icons-by-custom-icon-design/globe-icon.html
