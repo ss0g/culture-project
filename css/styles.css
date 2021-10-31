@@ -23,10 +23,6 @@ body
     font-size: 16px;
     cursor: pointer;
     border-radius: 5px;
-    /*margin-left: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-right: 10px;*/
     margin: 10px 10px 10px 10px;
 }
 
@@ -71,3 +67,26 @@ body
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .menuDrop:hover .menuButton { background-color: #222; }
+
+.circle
+{
+    background-color: #292c3480;
+    size: 50px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.circleText
+{
+    color: #acb2bf;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 10px 10px 10px;
+    display: none;
+}
+
+#india
+{
+    top: 800;
+    left: 1200;
+}
