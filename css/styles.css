@@ -11,7 +11,7 @@ body
 }
 
 /* Dropdown menu button */
-.menuButton
+button.menuButton
 {
     background-color: #292c34;
     border: none;
@@ -27,7 +27,7 @@ body
 }
 
 /* the <div> for positioning the dropdown content */
-.mainMenu
+div.menuDrop
 {
     position: relative;
     display: inline-block;
@@ -38,7 +38,7 @@ body
 }
 
 /* menu content (hidden by default) */
-.menu
+div.menu
 {
     display: none;
     position: absolute;
@@ -50,7 +50,7 @@ body
 }
 
 /* links inside the dropdown */
-.menu a
+div.menu a
 {
     color: #acb2bf;
     padding: 12px 16px;
@@ -60,33 +60,59 @@ body
 }
 
 /* change color of dropdown links on hover */
-.menu a:hover { background-color: #222; }
+div.menu a:hover { background-color: #222; }
 
 /* show the dropdown menu on hover */
-.menuDrop:hover .menu { display: block; }
+div.menuDrop:hover .menu { display: block; }
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.menuDrop:hover .menuButton { background-color: #222; }
+div.menuDrop:hover .menuButton { background-color: #202227; }
 
-.circle
+div.circle
 {
-    background-color: #292c3480;
-    size: 50px;
+    background-color: #292c34b0;
+    size: 50px 50px;
     border-radius: 50%;
     position: absolute;
+    display: inline-block;
+    z-index: 1;
+    width: 50px;
+    height: 50px;
 }
 
-.circleText
+div.circleText
 {
+    background-color: #292c34f0;
     color: #acb2bf;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
     margin: 10px 10px 10px 10px;
     display: none;
+    position: relative;
+    z-index: 2;
+    border-radius: 5px;
+    width: 300px;
+    padding: 12px 16px;
 }
 
-#india
+div.circle:hover
 {
-    top: 800;
-    left: 1200;
+    background-color: #202227f0;
+}
+
+div.circle:hover div.circleText
+{
+    display: block;
+}
+
+div.circle#india
+{
+    top: 650px;
+    left: 1200px;
+}
+
+div.circle#india div.circleText#indiaText
+{
+    top: -330px;
+    left: 0px;
 }
