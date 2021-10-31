@@ -4,20 +4,25 @@ body
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     color: #acb2bf;
-    -ms-overflow-style: none; /* hide scrollbar in IE and Edge */
-    scrollbar-width: none; /* hide scrollbar in Firefox */
+    padding: 0;
+    background-image: url(../images/afroeurasia.png);
+    background-size: 1920px 1041px;
+    /*overflow: hidden; /* prevent scrolling */
+    /*-ms-overflow-style: none; /* hide scrollbar in IE and Edge */
+    /*scrollbar-width: none; /* hide scrollbar in Firefox */ 
 }
-body::-webkit-scrollbar
+/*body::-webkit-scrollbar
 {
     display: none; /* hide scrollbar in Chrome */
-}
+/*}*/
 
-.mainMap
+/*.mainMap
 {
     background-image: url(../images/afroeurasia.png);
+    background-size: 100% 100%;
     width: 1920px;
-    height: 1017px;
+    height: 1041px;
     margin: 0;
     padding: 0;
     border: 0;
-}
+}*/
