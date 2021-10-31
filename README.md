@@ -1,3 +1,3 @@
 # culture-project
-Troy Edwards
-Modern World History
+Troy Edwards  
+Modern World History  
