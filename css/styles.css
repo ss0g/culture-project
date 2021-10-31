@@ -6,7 +6,7 @@ body
     color: #acb2bf;
     padding: 0;
     background-image: url(../images/afroeurasia.png);
-    background-size: 1920px 1041px;
+    background-size: 100vw 100vh; /* prev: 1920px 1041px */
     overflow: hidden;
 }
 
@@ -78,6 +78,7 @@ div.circle
     z-index: 1;
     width: 50px;
     height: 50px;
+    cursor: pointer;
 }
 
 div.circleText
@@ -107,8 +108,8 @@ div.circle:hover div.circleText
 
 div.circle#india
 {
-    top: 650px;
-    left: 1200px;
+    top: 65vh;
+    left: 63vw;
 }
 
 div.circle#india div.circleText#indiaText
