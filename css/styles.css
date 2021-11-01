@@ -117,3 +117,15 @@ div.circle#india div.circleText#indiaText
     top: -330px;
     left: 0px;
 }
+
+div.circle#sriLanka
+{
+    top: 73vh;
+    left: 65.5vw;
+}
+
+div.circle#sriLanka div.circleText#sriLankaText
+{
+    top: 0px;
+    left: -370px;
+}

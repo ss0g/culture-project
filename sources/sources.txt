@@ -1,3 +1,11 @@
 images/
     icon.ico: https://iconarchive.com/show/flatastic-2-icons-by-custom-icon-design/globe-icon.html
     afroeurasia.png https://engineeringhistoricalmemory.com/Images/apps/Afro-eurasia.png
+other/
+    cardamom info: https://www.britannica.com/plant/cardamom
+    cumin info: https://www.mccormickscienceinstitute.com/resources/culinary-spices/herbs-spices/cumin
+    cinnamon info:https://www.smithsonianmag.com/smart-news/heres-how-cinnamon-harvested-valley-indonesia-180955063/
+    coriander info: https://www.britannica.com/plant/coriander
+    pepper info: https://www.almanac.com/where-does-black-pepper-come
+    fenugreek info: https://www.webmd.com/vitamins/ai/ingredientmono-733/fenugreek
+    chili powder info: https://simpleindianrecipes.com/Homemade-Red-Chili-Powder.aspx
