@@ -5,7 +5,6 @@ body
     font-size: 16px;
     color: #acb2bf;
     padding: 0;
-    overflow: hidden;
 }
 
 /* Dropdown menu button */
@@ -73,4 +72,14 @@ div.mainText
     padding: 10px 20px;
     margin: 10px;
     border-radius: 5px;
+}
+
+div.mainText#aboutTitle
+{
+    width: fit-content;
+}
+
+div.mainText#bibTitle
+{
+    width: fit-content;
 }
